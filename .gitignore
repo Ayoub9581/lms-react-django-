@@ -4,7 +4,6 @@ env
 **/migrations
 db.sqlite3
 node_modules
-build
 package-lock.json
 myenv/
 myenv
