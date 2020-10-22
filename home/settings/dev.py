@@ -5,7 +5,7 @@ from .base import *
 ALLOWED_HOSTS += ['127.0.0.1', "django-react-lms.herokuapp.com"]
 DEBUG = True
 
-WSGI_APPLICATION = 'home.wsgi.dev.application'
+WSGI_APPLICATION = 'home.wsgi1.dev.application'
 
 DATABASES = {
     'default': {
