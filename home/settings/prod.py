@@ -4,7 +4,7 @@ from .base import *
 
 DEBUG = False
 ALLOWED_HOSTS += ["django-react-lms.herokuapp.com"]
-WSGI_APPLICATION = 'home.wsgi.prod.application'
+WSGI_APPLICATION = 'home.wsgi.application'
 
 DATABASES = {
     'default': {
