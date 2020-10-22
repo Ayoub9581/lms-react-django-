@@ -3,7 +3,7 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS += ["https://djano-react-lms.herokuapp.com"]
+ALLOWED_HOSTS += ["djano-react-lms.herokuapp.com"]
 WSGI_APPLICATION = 'home.wsgi.prod.application'
 
 DATABASES = {
